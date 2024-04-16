@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="esas">
+        <div class="giris">
+            <form action="">
+                <select id="girilen">
+                    <option selected>AZN</option>
+                    <option >TRY</option>
+                    <option >USD</option>
+                    <option >RUB</option>
+                    <option >GBP</option>
+                    <option >CHF</option>
+                    <option >CAD</option>
+                    <option >AUD</option>
+                    <option >EUR</option>
+                </select>
+                <input type="number" id="gir" min="1">
+            </form>
+        </div>
+        <div class="netice">
+            <form action="">
+                <select id="cevrilen">
+                    <option >AZN</option>
+                    <option >TRY</option>
+                    <option selected>USD</option>
+                    <option >RUB</option>
+                    <option >GBP</option>
+                    <option >CHF</option>
+                    <option >CAD</option>
+                    <option >AUD</option>
+                    <option >EUR</option>
+                </select>
+                <input type="number" id="cix" readonly>
+            </form>
+        </div>
+        <button id="cevir">Çevir</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

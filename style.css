@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#esas{
+    margin: auto;
+    width: 45%;
+    border: 1px solid red;
+    background-color: rgb(232, 222, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+select {
+    margin:50px 0;
+    font-size: 18px;
+}
+
+input{
+    font-size: 17px;
+    color: blue;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
